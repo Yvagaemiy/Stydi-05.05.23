@@ -10,14 +10,3 @@ for (int i = 0; i < fi.Length; i++)
     System.Console.WriteLine(fi[i].Name);
 }
 */
-
-
-string NumbersFor(int a, int b)
-{
- string result = String.Empty;
- for (int i = a; i <= b; i++)
- {
- result += $"{i} ";
- }
- return result;
-}
