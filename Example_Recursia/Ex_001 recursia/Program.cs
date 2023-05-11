@@ -4,7 +4,7 @@ string NumbersFor (int a , int b)
 {
     string result = String.Empty;
 
-    for (int i = a ;a < b;i++)
+    for (int i = a ;i <= b;i++)
     {
         //Console.WriteLine(Numbers);
         result += $"{i}";
@@ -18,8 +18,5 @@ string NumbersRec (int a , int b)
 }
 Console.WriteLine(NumbersFor(1 , 10));
 Console.WriteLine(NumbersRec(1 , 10));
-
-
-
 
 
