@@ -3,8 +3,8 @@
 //единицами в случайном порядке.
 //[1,0,1,1,0,1,0,0]
 
-int[] array = MekeArray();//делаю массив array rkfle gthtvtyye.
-PrintArray(array); // затем array массив  печатаю
+
+
 
 int[] MekeArray()//1)int бокс с функцие(массив) называется ДелайМассив -метод который будет возвращать массив.
 //внутри ни чего нет т.к. в задаче ровно 8 элементов.
@@ -16,12 +16,12 @@ int[] MekeArray()//1)int бокс с функцие(массив) называе
      }
        return arr; //затем верну arr 
 }
-
 int GenerateNembur() //Метод создания рондомного числа с функцией возврата
     {
   int number = new Random().Next(2);
   return number;
     }
+
 void PrintArray(int[] array) //Метод пустой который будет принимать в себя какой то массив array
 // ни чего не возврощает? он только выводит на экран массив
 {
@@ -34,3 +34,5 @@ void PrintArray(int[] array) //Метод пустой который будет
         Console.ReadLine();//перенос на новую страку 
 }
 
+int[] array = MekeArray();//делаю массив array rkfle gthtvtyye.
+PrintArray(array); // затем array массив  печатаю

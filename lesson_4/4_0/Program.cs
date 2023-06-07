@@ -6,16 +6,20 @@
 
 int SumNum(int num)
 {
-    int sum_all = 0;
+    int count = 0;
 
     for (int i =1; i <=num; i++ )
-
-    sum_all += i;
-  
-    return sum_all; 
+{
+    count = count +i;
+}
+    return count; 
 
 }
 
-int va1 = int.Parse(Console.ReadLine()!) ;
-int result = SumNum(va1);
-Console.WriteLine(result);
+// int va1 = int.Parse(Console.ReadLine()!) ;
+// int result = SumNum(va1);
+// Console.WriteLine(result);
+
+Console.WriteLine("Ввидите число");
+int num = Convert.ToInt32(Console.ReadLine());
+System.Console.WriteLine($"сумма чисел от {num} - > {SumNum( num)}");
